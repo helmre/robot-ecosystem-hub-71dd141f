@@ -3,14 +3,13 @@ import React from "react";
 import Navbar from "@/components/layout/Navbar";
 import PlusButton from "@/components/common/PlusButton";
 import LearnMoreButton from "@/components/common/LearnMoreButton";
-import { Plus } from "lucide-react";
 
 const Hero = () => {
   return (
     <div className="relative">
       <div className="absolute w-full h-[1117px] bg-[#000] overflow-hidden">
         <img
-          src="/lovable-uploads/60dcf2c4-358d-45a1-8e29-72ac6f879c87.png"
+          src="/lovable-uploads/95a4d91b-a945-4660-879e-fb3f6ed0f96a.png"
           alt="Hero background"
           className="w-full h-full object-cover"
         />
