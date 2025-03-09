@@ -79,13 +79,11 @@ const Hero = () => {
       <div className="absolute top-[464px] left-[509px] w-[682px] h-[682px] rounded-full bg-gradient-to-r from-[#00AEFF] via-[#BC003E] via-[#51DCFF] to-[#FFF676] opacity-100 blur-[202px] z-0"></div>
       <div className="absolute top-[464px] left-[1020px] w-[554px] h-[554px] rounded-full bg-gradient-to-r from-[#00AEFF] via-[#FF0055B0] via-[#51DCFF] to-[#FFF676] opacity-100 blur-[202px] z-0"></div>
 
-      {/* Removed the blurred rectangle that was blocking the background */}
-
       {/* Image in the blurred rectangle */}
       <div className="relative z-10 mx-auto max-w-7xl">
         <div className="mt-[574px] mx-auto w-[1323px] h-[543px] bg-[#333] rounded-lg overflow-hidden">
           <img
-            src="/images/robot-showcase.jpg"
+            src="/lovable-uploads/eaf3e3f6-fbfe-461a-8f4e-1d7d52f13c68.png"
             alt="Robot showcase"
             className="w-full h-full object-cover"
           />
