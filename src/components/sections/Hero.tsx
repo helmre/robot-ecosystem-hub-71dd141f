@@ -1,16 +1,14 @@
 
 import React from "react";
 import Navbar from "@/components/layout/Navbar";
-import PlusButton from "@/components/common/PlusButton";
-import LearnMoreButton from "@/components/common/LearnMoreButton";
-import { Plus } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
     <div className="relative">
       <div className="absolute w-full h-[1117px] bg-[#000] overflow-hidden">
         <img
-          src="/lovable-uploads/60dcf2c4-358d-45a1-8e29-72ac6f879c87.png"
+          src="/lovable-uploads/5fa8b173-b107-4604-9b8f-bccf471addf7.png"
           alt="Hero background"
           className="w-full h-full object-cover"
         />
@@ -28,20 +26,22 @@ const Hero = () => {
               Digital twin of robots
             </h1>
 
-            <div className="mt-8 flex items-center">
-              <PlusButton size="large" />
-              <div className="ml-4">
-                <p className="text-[#a1a1a1] text-lg">
-                  We use cookies to personalise your visit
-                  <br />
-                  experience and analyse the site traffic.
-                </p>
-              </div>
+            <div className="mt-8">
+              <p className="text-[#a1a1a1] text-lg">
+                We use cookies to personalise your visit
+                <br />
+                experience and analyse the site traffic.
+              </p>
             </div>
           </div>
 
-          <div className="md:w-1/2 mt-10 md:mt-0">
-            <div className="bg-[rgba(119,119,119,0.3)] backdrop-blur-[30px] rounded-[21px] p-6 max-w-[325px] ml-auto">
+          <div className="md:w-1/2 mt-10 md:mt-0 relative">
+            {/* Square with arrow icon */}
+            <div className="absolute top-0 right-0 w-[60px] h-[60px] border border-white/30 rounded-lg flex items-center justify-center z-10">
+              <ArrowRight className="w-6 h-6 text-white" />
+            </div>
+            
+            <div className="bg-[rgba(119,119,119,0.3)] backdrop-blur-[30px] rounded-[21px] p-6 max-w-[325px] ml-auto mt-16">
               <p className="text-white text-sm mb-2">
                 The best performance of actual
               </p>
@@ -52,7 +52,7 @@ const Hero = () => {
                 <p className="text-[#2e2e2e] text-xs">
                   The most accurate system
                   <br />
-                  preferences on robots industry
+                  preferences on <span className="font-medium">robots</span> industry
                 </p>
               </div>
 
@@ -70,7 +70,12 @@ const Hero = () => {
             </div>
 
             <div className="mt-6 ml-auto max-w-[226px]">
-              <LearnMoreButton />
+              <div className="bg-white rounded-[12px] shadow-lg backdrop-blur-[8px] p-4 flex items-center justify-between">
+                <span className="text-[#2f2f2f] text-sm">Learn more about this</span>
+                <div className="bg-[#00BCFF] rounded-md w-[26px] h-[26px] flex items-center justify-center">
+                  <ArrowRight className="w-4 h-4 text-white" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -83,14 +88,15 @@ const Hero = () => {
       {/* Blurred Rectangle */}
       <div className="absolute top-[563px] left-[191px] w-[1345px] h-[554px] bg-[rgba(141,141,141,0.43)] backdrop-blur-[30px] z-0"></div>
 
-      {/* Image in the blurred rectangle */}
+      {/* Robot showcase */}
       <div className="relative z-10 mx-auto max-w-7xl">
-        <div className="mt-[574px] mx-auto w-[1323px] h-[543px] bg-[#333] rounded-lg overflow-hidden">
-          <img
-            src="/images/robot-showcase.jpg"
-            alt="Robot showcase"
-            className="w-full h-full object-cover"
-          />
+        <div className="mt-[574px] mx-auto w-full md:w-[1323px] h-[543px] bg-black rounded-lg overflow-hidden">
+          <div className="relative w-full h-full">
+            <div className="absolute top-5 left-5 text-white text-xl">N.</div>
+            <div className="absolute top-12 left-5 w-8 h-8 rounded-full border border-white/30 flex items-center justify-center">
+              <div className="w-2 h-2 bg-white rounded-full"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
