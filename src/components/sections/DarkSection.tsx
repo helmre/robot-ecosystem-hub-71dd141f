@@ -46,7 +46,7 @@ const DarkSection = () => {
           <div className="mt-16">
             <div className="bg-[#d9d9d9] rounded-[26px] w-full md:w-[831px] h-[481px] ml-auto">
               <img
-                src="/images/prototype-showcase.jpg"
+                src="/lovable-uploads/2676b736-c32b-4081-bbb3-4dd08a48aa83.png"
                 alt="Prototype showcase"
                 className="w-full h-full object-cover rounded-[26px]"
               />
