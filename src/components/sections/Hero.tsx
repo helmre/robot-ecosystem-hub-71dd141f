@@ -8,9 +8,9 @@ import { Plus } from "lucide-react";
 const Hero = () => {
   return (
     <div className="relative">
-      <div className="absolute w-full h-[1117px] bg-[#333] overflow-hidden">
+      <div className="absolute w-full h-[1117px] bg-[#000] overflow-hidden">
         <img
-          src="/images/hero-background.jpg"
+          src="/lovable-uploads/60dcf2c4-358d-45a1-8e29-72ac6f879c87.png"
           alt="Hero background"
           className="w-full h-full object-cover"
         />
