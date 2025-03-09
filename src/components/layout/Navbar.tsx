@@ -8,9 +8,8 @@ const Navbar = () => {
       <div className="mx-auto max-w-[1380px] bg-[rgba(119,119,119,0.3)] backdrop-blur-[15px] rounded-[22px] border border-[rgba(79,79,79,0.3)] h-[72px] mt-[27px] flex items-center justify-between px-6">
         <div className="flex items-center">
           <div className="flex items-center">
-            <span className="text-white font-normal">COINS</span>
+            <span className="text-white font-normal">Neuraverse</span>
             <span className="text-[#00AEFF] ml-1">.</span>
-            <span className="text-white font-normal">COM</span>
           </div>
         </div>
 
