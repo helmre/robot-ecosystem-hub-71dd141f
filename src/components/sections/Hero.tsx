@@ -80,8 +80,7 @@ const Hero = () => {
       <div className="absolute top-[464px] left-[509px] w-[682px] h-[682px] rounded-full bg-gradient-to-r from-[#00AEFF] via-[#BC003E] via-[#51DCFF] to-[#FFF676] opacity-100 blur-[202px] z-0"></div>
       <div className="absolute top-[464px] left-[1020px] w-[554px] h-[554px] rounded-full bg-gradient-to-r from-[#00AEFF] via-[#FF0055B0] via-[#51DCFF] to-[#FFF676] opacity-100 blur-[202px] z-0"></div>
 
-      {/* Blurred Rectangle */}
-      <div className="absolute top-[563px] left-[191px] w-[1345px] h-[554px] bg-[rgba(141,141,141,0.43)] backdrop-blur-[30px] z-0"></div>
+      {/* Removed the blurred rectangle that was blocking the background */}
 
       {/* Image in the blurred rectangle */}
       <div className="relative z-10 mx-auto max-w-7xl">
